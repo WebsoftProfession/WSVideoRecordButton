@@ -15,6 +15,7 @@
 		606DDC6B1E3F37B7007E61BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606DDC691E3F37B7007E61BF /* LaunchScreen.storyboard */; };
 		606DDC761E3F37B7007E61BF /* Recording_Animation_LayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DDC751E3F37B7007E61BF /* Recording_Animation_LayerTests.swift */; };
 		606DDC811E3F37B7007E61BF /* Recording_Animation_LayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DDC801E3F37B7007E61BF /* Recording_Animation_LayerUITests.swift */; };
+		606DDC911E3F6701007E61BF /* RecordingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606DDC901E3F6701007E61BF /* RecordingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		606DDC7C1E3F37B7007E61BF /* Recording Animation LayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recording Animation LayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		606DDC801E3F37B7007E61BF /* Recording_Animation_LayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording_Animation_LayerUITests.swift; sourceTree = "<group>"; };
 		606DDC821E3F37B7007E61BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606DDC901E3F6701007E61BF /* RecordingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				606DDC691E3F37B7007E61BF /* LaunchScreen.storyboard */,
 				606DDC6C1E3F37B7007E61BF /* Info.plist */,
 				606DDC641E3F37B6007E61BF /* Recording_Animation_Layer.xcdatamodeld */,
+				606DDC901E3F6701007E61BF /* RecordingButton.swift */,
 			);
 			path = "Recording Animation Layer";
 			sourceTree = "<group>";
@@ -192,7 +195,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = Dotsquares;
+				ORGANIZATIONNAME = WebsoftProfession;
 				TargetAttributes = {
 					606DDC591E3F37B6007E61BF = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606DDC911E3F6701007E61BF /* RecordingButton.swift in Sources */,
 				606DDC601E3F37B6007E61BF /* ViewController.swift in Sources */,
 				606DDC5E1E3F37B6007E61BF /* AppDelegate.swift in Sources */,
 				606DDC661E3F37B6007E61BF /* Recording_Animation_Layer.xcdatamodeld in Sources */,
@@ -509,6 +513,7 @@
 				606DDC871E3F37B7007E61BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		606DDC881E3F37B7007E61BF /* Build configuration list for PBXNativeTarget "Recording Animation LayerTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				606DDC8A1E3F37B7007E61BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		606DDC8B1E3F37B7007E61BF /* Build configuration list for PBXNativeTarget "Recording Animation LayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				606DDC8D1E3F37B7007E61BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
